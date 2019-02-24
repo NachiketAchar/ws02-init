@@ -11,7 +11,7 @@ This proxy does -
 - for a category reserves an appointment with a doctor.
 - It has a transformation of json payload from a flat structure to a nested structure using the datamapper option.
 - This proxy has the following endpoints 
-  - GET on http://<host>:<port>/healthcare/querydoctor/{category}
+  - GET on http://[host]:[port]/healthcare/querydoctor/{category}
       - category can be surgery, cardiology, gynaecology, ent, paediatric
 
   - POST on http://localhost:8280/healthcare/categories/surgery/reserve
