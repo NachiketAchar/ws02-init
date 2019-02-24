@@ -14,7 +14,7 @@ This proxy does -
   - GET on http://[host]:[port]/healthcare/querydoctor/{category}
       - category can be surgery, cardiology, gynaecology, ent, paediatric
 
-  - POST on http://localhost:8280/healthcare/categories/surgery/reserve
+  - POST on http://[host]:[port]/healthcare/categories/surgery/reserve
       - json body as below 
         {
           "name": "John Doe",
